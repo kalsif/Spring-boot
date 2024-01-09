@@ -8,7 +8,7 @@ public class CiaoController {
     @GetMapping(path = "/ciao/{provincia}")
     public User ciao(
             @PathVariable String provincia,
-            @RequestParam(required = false) String nome
+            @RequestParam String nome
 
     ){
         String saluto = "Ciao " + nome + ", com'è il tempo in " + provincia + " ?";
