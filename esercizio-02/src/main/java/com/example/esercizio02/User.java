@@ -5,9 +5,9 @@ public class User {
     public String provincia;
     public String saluto;
 
-    public User(String nome, String provenineza, String saluto) {
+    public User(String nome, String provincia, String saluto) {
         this.nome = nome;
-        this.provincia = provenineza;
+        this.provincia = provincia;
         this.saluto = saluto;
     }
 
