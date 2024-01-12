@@ -24,14 +24,14 @@ public class NameController {
     }
 
 
-    @PostMapping("/reverse")
+    @PostMapping("/ciao/reverse")
     @Operation(summary = "reverse-name", description = "The reverse name of the user")
     @ResponseStatus(HttpStatus.OK)
     @ApiResponses({
             @ApiResponse(responseCode = "202", description = "Created"),
             @ApiResponse(responseCode = "400" , description = "Bad input")
     })
-    public StringBuilder reverse(String name){
+    public StringBuilder reverse(@RequestParam String name){
         StringBuilder reverse = new StringBuilder(name);
         reverse.reverse();
         return reverse;
