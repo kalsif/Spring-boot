@@ -10,8 +10,8 @@ public class NameController {
         return "Ciao " + name ;
     }
 
-    @PostMapping("/reverse")
-    public StringBuilder reverse(String name){
+    @PostMapping("/ciao/reverse")
+    public StringBuilder reverse(@RequestParam String name){
         StringBuilder reverse = new StringBuilder(name);
         reverse.reverse();
         return reverse;
