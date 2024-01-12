@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/v1")
 public class NameController {
 
-    @GetMapping(path = "")
+    @GetMapping(path = "/name")
     @Operation(summary = "name", description = "The name of user")
     @ResponseStatus(HttpStatus.OK)
     @ApiResponses({
@@ -24,7 +24,7 @@ public class NameController {
     }
 
 
-    @PostMapping("/ciao/reverse")
+    @PostMapping("/name/reverse")
     @Operation(summary = "reverse-name", description = "The reverse name of the user")
     @ResponseStatus(HttpStatus.OK)
     @ApiResponses({
