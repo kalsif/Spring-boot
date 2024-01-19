@@ -8,20 +8,17 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Entity
-@Table
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Student {
+public class Class {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     @Column(nullable = false)
-    private String firstName;
+    private String title;
     @Column(nullable = false)
-    private String lastName;
-    @Column(unique = true, nullable = false)
-    private String email;
+    private String description;
 
     @OneToMany(fetch = FetchType.LAZY)
     private List<Enrollments> enrollments;

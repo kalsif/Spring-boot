@@ -6,21 +6,20 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
-
 @Entity
+@Table
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Classes {
+public class Enrollments {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @Column(nullable = false)
-    private String title;
-    @Column(nullable = false)
-    private String description;
 
-    @OneToMany(fetch = FetchType.LAZY)
-    private List<Student> students;
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Student student;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Class classes;
 }
