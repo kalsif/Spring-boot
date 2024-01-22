@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/devdb
+    username: root
+    password: M0nellodipapa!
+    driver-class-name : com.mysql.cj.jdbc.Driver
+  jpa:
+    show_sql: true
+    hibernate:
+      ddl_auto: update
