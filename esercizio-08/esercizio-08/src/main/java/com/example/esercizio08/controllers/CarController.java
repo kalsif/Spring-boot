@@ -34,7 +34,7 @@ public class CarController {
     @GetMapping("/car/getById/{id}")
     public Car getById(@PathVariable long id) {
         for (Car c : carRepository.findAll()) {
-            if (carRepository.existsById(id)) {
+            if (carRepository.existsById(id) && c.getId() == id) {
                 return c;
             }
         }
