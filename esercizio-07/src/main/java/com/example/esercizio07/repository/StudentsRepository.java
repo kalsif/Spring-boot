@@ -9,6 +9,4 @@ import java.util.List;
 
 @Repository
 public interface StudentsRepository extends JpaRepository<Student,Long> {
-
-    <S extends Student> List<S> findAll(Example<S> example);
 }

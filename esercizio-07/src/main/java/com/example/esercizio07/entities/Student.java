@@ -22,9 +22,4 @@ public class Student {
     @Column(unique = true, nullable = false)
     private String email;
 
-    public Student(String firstName, String lastName, String email) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-    }
 }
