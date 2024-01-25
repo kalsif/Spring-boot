@@ -18,8 +18,9 @@ public class CarController {
     private CarRepository carRepository;
 
     @PostMapping("/car/create")
-    public void createCar(@RequestBody Car car) {
+    public Car createCar(@RequestBody Car car) {
         carRepository.saveAndFlush(car);
+        return car;
     }
 
     @GetMapping("/getAll")
