@@ -1,9 +1,7 @@
 package com.example.esercizio11.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.type.TrueFalseConverter;
 
 @Entity
@@ -11,6 +9,8 @@ import org.hibernate.type.TrueFalseConverter;
 @Table
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

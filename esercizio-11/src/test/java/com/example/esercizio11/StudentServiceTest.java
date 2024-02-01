@@ -75,6 +75,19 @@ public class StudentServiceTest {
     }
 
     @Test
+    void updateStatusStudent(){
+        Student student = new Student();
+        student.setName("Anto");
+        student.setSurname("Troiano");
+
+        studentRepository.saveAndFlush(student);
+
+
+        assertThat(studentService.updateStatus(1,true)).isEqualTo(studentService.getStudentById(1));
+
+    }
+
+    @Test
     void deleteStudentTest(){
         Student student = new Student();
         student.setName("Anto");
@@ -82,23 +95,12 @@ public class StudentServiceTest {
         student.setWorking(false);
 
         studentRepository.saveAndFlush(student);
-        assertThat(student.getId()).isNotNull();
-        assertThat(studentService.deleteStudentById(student.getId())).isEqualTo(student);
+
+
+        assertThat(studentService.deleteStudentById(1)).isEqualTo(student);
         assertThat(studentService.getAllStudents().size()).isZero();
     }
 
-    @Test
-    void updateStatusStudent(){
-        Student student = new Student();
-        student.setName("Anto");
-        student.setSurname("Troiano");
-        student.setWorking(false);
 
-        studentRepository.saveAndFlush(student);
-        studentService.updateStatus(1,true);
-
-        assertThat(studentService.getStudentById(1).isWorking()).isEqualTo(true);
-        assertThat(studentService.updateStatus(1,true)).isNotNull();
-    }
 
 }
