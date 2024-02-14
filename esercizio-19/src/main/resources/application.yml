@@ -1,0 +1,13 @@
+server:
+  port: 8080
+---
+environment: production
+spring:
+  config:
+    activate:
+      on-profile: prod
+name: prod-YAML
+server:
+  port: 4500
+authCode : xyz458
+devName : Antonio
