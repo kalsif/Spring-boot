@@ -1,0 +1,299 @@
+2024-02-16 12:14:17,662 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 6772 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:14:17,664 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:14:17,665 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:14:17,702 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:14:17,702 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:14:18,443 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:14:18,453 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:14:18,455 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:14:18,455 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:14:18,491 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:14:18,492 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 785 ms
+2024-02-16 12:14:18,531 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'basicController': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-02-16 12:14:18,533 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2024-02-16 12:14:18,542 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-16 12:14:18,558 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.example.esercizio21.controllers.BasicController required a bean of type 'org.slf4j.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2024-02-16 12:16:31,714 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 8840 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:16:31,715 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:16:31,715 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:16:31,756 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:16:31,756 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:16:32,505 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:16:32,515 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:16:32,516 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:16:32,517 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:16:32,552 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:16:32,553 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 796 ms
+2024-02-16 12:16:32,590 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'basicController': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-02-16 12:16:32,592 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2024-02-16 12:16:32,601 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-16 12:16:32,617 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.example.esercizio21.controllers.BasicController required a bean of type 'org.slf4j.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2024-02-16 12:17:22,662 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 13384 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:17:22,663 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:17:22,664 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:17:22,703 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:17:22,703 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:17:23,411 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:17:23,420 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:17:23,421 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:17:23,422 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:17:23,455 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:17:23,456 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 751 ms
+2024-02-16 12:17:23,493 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'basicController': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-02-16 12:17:23,495 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2024-02-16 12:17:23,505 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-16 12:17:23,522 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.example.esercizio21.controllers.BasicController required a bean of type 'org.slf4j.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2024-02-16 12:17:58,907 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 15004 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:17:58,909 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:17:58,909 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:17:58,949 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:17:58,949 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:17:59,674 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:17:59,683 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:17:59,685 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:17:59,685 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:17:59,717 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:17:59,718 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 769 ms
+2024-02-16 12:17:59,758 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'basicController': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-02-16 12:17:59,760 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2024-02-16 12:17:59,771 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-16 12:17:59,788 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.example.esercizio21.controllers.BasicController required a bean of type 'org.slf4j.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2024-02-16 12:22:58,525 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 3460 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:22:58,527 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:22:58,528 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:22:58,574 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:22:58,575 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:22:59,326 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:22:59,337 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:22:59,338 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:22:59,339 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:22:59,377 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:22:59,378 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 802 ms
+2024-02-16 12:22:59,416 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'basicController': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-02-16 12:22:59,418 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2024-02-16 12:22:59,428 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-16 12:22:59,445 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.example.esercizio21.controllers.BasicController required a bean of type 'org.slf4j.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2024-02-16 12:25:09,635 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 3856 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:25:09,637 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:25:09,637 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:25:09,679 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:25:09,679 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:25:10,452 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:25:10,461 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:25:10,464 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:25:10,464 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:25:10,500 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:25:10,501 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 821 ms
+2024-02-16 12:25:10,542 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'basicController': Unsatisfied dependency expressed through field 'basicService': Error creating bean with name 'basicService': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-02-16 12:25:10,545 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2024-02-16 12:25:10,554 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-16 12:25:10,571 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.example.esercizio21.services.BasicService required a bean of type 'org.slf4j.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2024-02-16 12:25:43,136 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 15440 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:25:43,138 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:25:43,138 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:25:43,177 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:25:43,177 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:25:43,911 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:25:43,921 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:25:43,924 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:25:43,924 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:25:43,960 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:25:43,961 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 782 ms
+2024-02-16 12:25:43,998 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'basicController': Unsatisfied dependency expressed through field 'basicService': Error creating bean with name 'basicService': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-02-16 12:25:44,000 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2024-02-16 12:25:44,009 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-16 12:25:44,025 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.example.esercizio21.services.BasicService required a bean of type 'org.slf4j.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2024-02-16 12:26:21,744 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 9172 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:26:21,745 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:26:21,746 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:26:21,783 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:26:21,783 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:26:22,498 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:26:22,508 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:26:22,510 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:26:22,510 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:26:22,548 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:26:22,549 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 764 ms
+2024-02-16 12:26:22,824 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-02-16 12:26:22,832 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:26:22,846 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2024-02-16 12:26:22,853 INFO o.s.b.StartupInfoLogger [restartedMain] Started Esercizio21Application in 1.547 seconds (process running for 1.919)
+2024-02-16 12:27:02,924 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-16 12:27:02,925 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-16 12:27:02,925 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-02-16 12:27:02,944 DEBUG c.e.e.s.BasicService [http-nio-8080-exec-1] Power calculation start
+2024-02-16 12:27:02,945 DEBUG c.e.e.s.BasicService [http-nio-8080-exec-1] End calculation
+2024-02-16 12:27:35,815 ERROR c.e.e.c.BasicController [http-nio-8080-exec-3] errore
+2024-02-16 12:28:09,059 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 17892 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:28:09,060 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:28:09,061 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:28:09,102 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:28:09,103 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:28:09,859 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:28:09,869 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:28:09,871 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:28:09,871 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:28:09,906 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:28:09,907 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 803 ms
+2024-02-16 12:28:10,192 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-02-16 12:28:10,203 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:28:10,220 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2024-02-16 12:28:10,229 INFO o.s.b.StartupInfoLogger [restartedMain] Started Esercizio21Application in 1.591 seconds (process running for 1.926)
+2024-02-16 12:28:13,400 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-16 12:28:13,400 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-16 12:28:13,401 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-02-16 12:28:13,419 ERROR c.e.e.c.BasicController [http-nio-8080-exec-1] errore
+2024-02-16 12:28:41,046 INFO c.e.e.c.BasicController [http-nio-8080-exec-2] Welcome msg
+2024-02-16 12:29:59,754 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Esercizio21Application using Java 21.0.1 with PID 13284 (D:\Develhope\Spring-boot\esercizio-21\target\classes started by Antonio in D:\Develhope\Spring-boot\esercizio-21)
+2024-02-16 12:29:59,756 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-16 12:29:59,757 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-02-16 12:29:59,808 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-16 12:29:59,808 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-16 12:30:00,584 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-02-16 12:30:00,594 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:30:00,596 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-02-16 12:30:00,596 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-16 12:30:00,633 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-02-16 12:30:00,634 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 824 ms
+2024-02-16 12:30:00,911 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-02-16 12:30:00,920 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-16 12:30:00,933 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2024-02-16 12:30:00,940 INFO o.s.b.StartupInfoLogger [restartedMain] Started Esercizio21Application in 1.589 seconds (process running for 1.932)
+2024-02-16 12:30:13,740 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-16 12:30:13,740 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-16 12:30:13,741 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-02-16 12:30:21,877 DEBUG c.e.e.s.BasicService [http-nio-8080-exec-3] Power calculation start
+2024-02-16 12:30:21,878 DEBUG c.e.e.s.BasicService [http-nio-8080-exec-3] End calculation
